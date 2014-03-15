@@ -43,8 +43,8 @@ procmail
 cd /usr/local/src/
 wget http://ftp.otrs.org/pub/otrs/otrs-$VERSION.tar.gz
 tar zxf /usr/local/src/otrs-$VERSION.tar.gz
-mv /usr/local/src/otrs-$VERSION/* /opt/otrs/
-mv /usr/local/src/otrs-$VERSION/.* /opt/otrs/
+mv /usr/local/src/otrs-$VERSION /opt/otrs
+#mv /usr/local/src/otrs-$VERSION/.* /opt/otrs/
 
 # Create User and Group
 useradd -r -d /opt/otrs/ -c 'OTRS user' otrs
