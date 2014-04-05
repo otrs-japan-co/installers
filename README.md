@@ -5,13 +5,8 @@ Install command ( 1 liner ) for Redhat / CentOS 6 from source.
 
 ```bash
 # cd /usr/local/src/
-# curl -L https://raw.github.com/otrs-japan-co/installers/master/otrs-installer.sh | bash
-```
-
-or
-
-```bash
-# cd /usr/local/src/ && curl -L https://raw.github.com/otrs-japan-co/installers/master/otrs-installer.sh | bash
+# wget https://raw.github.com/otrs-japan-co/installers/master/otrs-installer.sh
+# bash otrs-installer.sh
 ```
 
 ## Quick Install
@@ -24,7 +19,7 @@ yum localinstall otrs-3.3.5-02.noarch.rpm
 
 ## Quick Install One Liner
 
-これ1行を貼り付けるだけでOTRSがインストールできちゃいます！
+これ1行を貼り付けるだけでOTRSがインストールできます。
 
 Just copy and paste this one liner, we can install OTRS !!
 
