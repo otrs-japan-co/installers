@@ -6,7 +6,7 @@ Install command ( 1 liner ) for Redhat / CentOS 6 from source.
 ```bash
 # cd /usr/local/src/
 # wget https://raw.github.com/otrs-japan-co/installers/master/otrs-installer.sh
-# bash otrs-installer.sh
+# bash otrs-installer.sh rpm
 ```
 
 ## Quick Install
