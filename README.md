@@ -13,8 +13,8 @@ Install command ( 1 liner ) for Redhat / CentOS 6 from source.
 
 ```bash
 cd /usr/local/src/
-wget http://ftp.otrs.org/pub/otrs/RPMS/rhel/6/otrs-3.3.5-02.noarch.rpm
-yum localinstall otrs-3.3.5-02.noarch.rpm
+wget http://ftp.otrs.org/pub/otrs/RPMS/rhel/6/otrs-3.3.6-01.noarch.rpm
+yum localinstall otrs-3.3.6-01.noarch.rpm
 ```
 
 ## Quick Install One Liner
